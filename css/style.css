@@ -997,11 +997,10 @@ section h2 {
   line-height: 2;
 }
 
+.contact-text .phone,
 .contact-text .email,
 .contact-text .blog {
-  margin-top: 30px;
-  font-weight: 700;
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: 700;
   text-align: center;
   padding: 6px 10px;
@@ -1075,14 +1074,8 @@ section h2 {
     -6px 0px 8px rgb(255 255 255);
 }
 
-@media screen and (max-width: 768px) {
-  .pagination ul li {}
-
-  #main h1 {
-    font-size: 36px;
-  }
-
-  section h2 {
-    font-size: 30px;
-  }
+@media screen and (max-width: 1200px) {
+ body {
+   display: none;
+ }
 }
